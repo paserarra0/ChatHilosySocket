@@ -1,8 +1,3 @@
-/************************************************************
-* Nombre: Pablo Serna Arrazola
-* Asignatura: Programación concurrente y distribuida.
-* Actividad Unidad 1: Hilos y Socket
-************************************************************/
 import java.io.IOException;//Importamos las bibliotecas de java necesarias
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -13,7 +8,7 @@ public class Cliente {
     public static void main(String[] args) {
         try {
         	//Abrimos una conexión con el servidor. Para ello introdución la dirección ip y el puerto
-            Socket socket = new Socket("localhost", 5555);
+            Socket socket = new Socket("localhost", 5551);
             System.out.println("Conectado al servidor.");
 
             try (

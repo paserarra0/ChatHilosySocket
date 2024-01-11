@@ -1,8 +1,3 @@
-/************************************************************
-* Nombre: Pablo Serna Arrazola
-* Asignatura: Programación concurrente y distribuida.
-* Actividad Unidad 1: Hilos y Socket
-************************************************************/
 import java.io.IOException;//importamos bibliotecas necesarias de java.
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -13,7 +8,7 @@ public class Servidor {
     public static void main(String[] args) {
         try {
         	//Creamos un nuevo socket en el puerto 5555.
-            ServerSocket serverSocket = new ServerSocket(5555);
+            ServerSocket serverSocket = new ServerSocket(5551);
             //Cuando el socket esté activo escribimos por consola: "Servidor esperando conexiones...".
             System.out.println("Servidor esperando conexiones...");
             
